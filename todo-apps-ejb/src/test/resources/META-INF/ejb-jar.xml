@@ -1,0 +1,16 @@
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd"
+	version="3.1">
+	<enterprise-beans>
+	<session>
+      <ejb-name>TodoManagerBean</ejb-name>
+      
+      <persistence-context-ref>
+        <persistence-context-ref-name>com.jenzabar.ngp.dao.ejb.AbstractDAO/em</persistence-context-ref-name>
+        <persistence-unit-name>ngp</persistence-unit-name>
+      </persistence-context-ref>
+      
+    </session>
+	</enterprise-beans>
+</ejb-jar>

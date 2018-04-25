@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Title -->
+    <title>TO DO Application</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta charset="UTF-8">
+    <meta name="description" content="To do Application"/>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" type="text/css"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="public/lib/assets/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body >
+<div ui-view></div>
+
+<script src="public/lib/angular/angular.min.js"></script>
+<script src="public/lib/angular-ui-router/angular-ui-router.min.js"></script>
+<script src="public/lib/angular-resource/angular-resource.min.js"></script>
+
+<script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
+<!-- Javascripts -->
+<script src="public/config.js"></script>
+<script src="public/application.js"></script>
+
+<!--Todo module-->
+<script src="public/modules/todo/todo.client.module.js"></script>
+<script src="public/modules/todo/controllers/todo.client.controller.js"></script>
+<script src="public/modules/todo/services/todo.client.service.js"></script>
+<script src="public/modules/todo/config/todo.client.routes.js"></script>
+
+
+</body>
+
+</html>
